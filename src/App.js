@@ -28,7 +28,7 @@ function App() {
   return (
     <main>
       <Products products={products} />
-      <Button text='hello' />
+      {/* <Button text='hello' /> */}
     </main>
   );
 }
