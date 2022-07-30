@@ -1,10 +1,7 @@
 import React from 'react';
+import './Products.css';
 
 export default function Products({ products }) {
-  // let dataElements = props.map(product => {
-  //   key = {product.id}
-
-  // })asa
   return (
     <>
       {products.map((product) => {
@@ -12,8 +9,10 @@ export default function Products({ products }) {
         return (
           <article key={id}>
             <h2>{title}</h2>
-            <img src={image} />
-            <span>{price}</span>
+            <div className='img-container'>
+              <img src={image} />
+            </div>
+            <span>${price}</span>
           </article>
         );
       })}
