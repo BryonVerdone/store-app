@@ -1,0 +1,21 @@
+article {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  border: 5px solid purple;
+  width: 30%;
+
+  padding: 1%;
+}
+
+h2 {
+  padding: 2rem;
+}
+.img-container {
+}
+article img {
+  max-height: 30rem;
+  width: 100%;
+  margin: 2rem 0;
+}
