@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import Products from './components/Products';
+import Products from './components/products/Products';
 import Button from './components/Button';
 import Loading from './components/Loading';
 
